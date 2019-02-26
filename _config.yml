@@ -20,6 +20,8 @@ author:
 
 paginate:         5
 
+future: false
+
 # Custom vars
 version:          2.1.0
 
