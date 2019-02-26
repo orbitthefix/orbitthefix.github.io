@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true (deprecated in Jekyll >3.0)
+
+# Setup
+title:            Orbit the Fix
+tagline:          'Musings on orbital mechanics, engineering, aviation, and fixing cars.'
+description:      'Musings on orbital mechanics, engineering, aviation, and fixing cars.'
+#'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Eric Mott'
+  url:            https://dmcwru.org
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/tamfr
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
