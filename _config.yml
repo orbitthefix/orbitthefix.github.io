@@ -31,3 +31,4 @@ github:
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - github-pages
