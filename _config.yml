@@ -12,7 +12,7 @@ tagline:          'Musings on orbital mechanics, engineering, aviation, and fixi
 description:      'Musings on orbital mechanics, engineering, aviation, and fixing cars.'
 #'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              https://orbitthefix.github.io
-baseurl:          https://orbitthefix.github.io
+baseurl:          /
 
 author:
   name:           'Eric Mott'
