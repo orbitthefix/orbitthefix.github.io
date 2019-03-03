@@ -19,14 +19,14 @@ office. You can barely get in or out of the door.  It's a classic process
 bottleneck.  One day I walked in and there was a refreshing sign of improvement.
 The lady working in the office, who's almost never busy at this time, had
 pre-filled out the date and time since it's more or less the same for everyone.
-Checkout speed doubled. But how long did this last? Less than a week.There's got
-to be a better way.  Of course, technology offers many attractive solutions.
+Checkout speed doubled. But how long did this last? Less than a week. There's
+got to be a better way.  Of course, technology offers many attractive solutions.
 My favorite is RFID.  The helmets would have a small RFID antenna and when they
 pass through the door, they get scanned.  Simple. Elegant.  No one would have to
 fill out anything.  But alas, that would take an act of congress.  But what
 could be done, and what I'm proposing next week is that we make a new form
 because we can't not have a form.  But this form will be different.  It will
-just require two signatures.  One when you check out and one when you check in.  
+just require two signatures.  One when you check out and one when you check in.
 All the rest of the information will be pre-printed on the form because it isn't
 variable enough to not be.  If it flies, it's a stupid simple improvement.  But
 then again, those types of improvements tend to be the best. Keep it simple
