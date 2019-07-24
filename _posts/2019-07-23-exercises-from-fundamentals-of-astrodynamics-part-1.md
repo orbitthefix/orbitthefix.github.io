@@ -9,15 +9,15 @@ through the exercises from "Fundamentals of Astrodynamics" by Bate, Mueller, and
 White.  The intent is to not only provide myself with a refresher, but to
 provide a resource for enterprising students.
 
-**Exercise 1.1** The position and velocity of a satellite at a given instant are
-described by
+**Exercise 1.1** The position, $$\vec{r}$$, and velocity, $$\vec{v}$$, of a
+satellite at a given instant in canonical units: Distance Units (DU) and
+Distance Units per Time Unit (TU), respectively, are described by
 
-$$
-\renewcommand{\vec}[1]{\mathbf{#1}}
+$$ \renewcommand{\vec}[1]{\mathbf{#1}}
 
-\vec{r} = 2\vec{I} + 2\vec{J} + 2\vec{K} \quad \textrm{[Distance Units (DU)]} \\
-\vec{v} = -.4\vec{I} + .2\vec{J} + .4\vec{K} \quad
-\textrm{[Distance Units per Time Unit (TU)]}
+
+\vec{r} = 2\vec{I} + 2\vec{J} + 2\vec{K} \textrm{DU} \\
+\vec{v} = -.4\vec{I} + .2\vec{J} + .4\vec{K} \quad \textrm{TU}
 $$
 
 Find the specific angular momentum, $$\vec{h}$$, and specific mechanical energy, $$\mathcal{E}$$, of the system.
