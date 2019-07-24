@@ -20,7 +20,7 @@ $$
 \textrm{[Distance Units per Time Unit (TU)]}
 $$
 
-Find the specific angular momentum, $$h$$, and specific mechanical energy, $$\mathcal{E}$$, of the system.
+Find the specific angular momentum, $$\vec{h}$$, and specific mechanical energy, $$\mathcal{E}$$, of the system.
 
 **Solution**:
 
@@ -57,7 +57,8 @@ $$
 
 \mathcal{E} = \frac{v^2}{2}  - \frac{\mu}{r} \\
 
-v^2 = |\vec{v}|^{2} = (-0.4)^2 + (0.2)^2 + (0.4)^2 = 0.36 \quad \frac{\textrm{DU}^2}{\textrm{TU}^2} \\
+v^2 = |\vec{v}|^{2}
+ = (-0.4)^2 + (0.2)^2 + (0.4)^2 = 0.36 \quad \frac{\textrm{DU}^2}{\textrm{TU}^2} \\
 r = |\vec{r}| = \left( 2^2 + 2^2 +2^2 \right)^{\frac{1}{2}} = 12^{\frac{1}{2}} \quad \textrm{DU} \\
 
 $$
