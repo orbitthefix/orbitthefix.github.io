@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exercises from "Fundamentals of Astrodynamics" Part 1
+categories: [Orbital Mechanics]
 ---
 
 Over the coming months, years, decades, no one really knows, I will be working
@@ -34,21 +35,7 @@ $$
 
 An easy way to set up the crossproduct is using [Sarrus' scheme][sarrus]:
 
-$$
-
-\begin{vmatrix}
-  \vec{I} &  \vec{J} &  \vec{K} \\
-  2 &  2 &  2 \\
--.4 & .2 & .4
-\end{vmatrix}
-
-\begin{vmatrix}
-  \vec{I} &  \vec{J} \\
-  2 &  2 \\
--.4 & .2
-\end{vmatrix} \\
-
-$$
+![sarrus' scheme]({{ "public/posts/2019-07-23-sarrus.png" | relative_url }}){: .center-image }
 
 This yields:
 

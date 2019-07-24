@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SRT-4 camshaft position sensor remove and replace.
-tags: SRT-4, maintenance
+categories: [SRT-4]
+tags: [SRT-4, maintenance]
 ---
 
 ### Indications
@@ -59,4 +60,4 @@ tags: SRT-4, maintenance
 1. PL/SRT-4 Factory Service Manual
 1. https://www.moparpartsinc.com/Dodge_2004_Neon-SRT4-24L-Turbo-I4-MT.html
 
-![Image of camshaft target magnet polarity](../public/posts/2019-07-13_CTM.png)
+![Image of camshaft target magnet polarity]({{"public/posts/2019-07-13_CTM.png" | relative_url}})

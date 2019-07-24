@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Starting out your day filling out a redundant useless form
-tags: process, paperwork
+categories: [Aviation, Process Improvement]
+tags: [process, paperwork]
 ---
 
 Many of my days at work start with checking out a helmet from a small office for

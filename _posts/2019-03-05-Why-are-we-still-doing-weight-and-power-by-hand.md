@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Why are we still doing weight and power by hand?
-tags: aviation, process, paperwork, automation
+categories: [Aviation, Process Improvement]
+tags: [paperwork, automation]
 ---
 
 Weight and power if you've never heard of it, or in other parlance, weight and
