@@ -37,7 +37,6 @@ $$
 
 \vec{h} = \vec{r} \times \vec{v} \\
 
-
 $$
 
 An easy way to set up the crossproduct is using [Sarrus' scheme][sarrus]:
