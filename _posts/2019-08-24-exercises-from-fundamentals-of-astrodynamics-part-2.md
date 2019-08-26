@@ -11,6 +11,8 @@ the velocity and position of a satellite, find its eccentricity.  However, as
 simple as it seems, you'll see it takes quite a bit of derivation to arrive at
 the answer.
 
+![elliptical orbit built with tikz]({{"public/posts/2019-08-24-ellipse.png" | relative_url}}){: .center-image }
+
 **Exercise 1.2** For a certain satellite the observed velocity and
 radius at $$ \nu = 90^\circ $$ is observed to be 45,000 ft/s and 4000
 NM, respectively. Find the eccentricity of the orbit.
