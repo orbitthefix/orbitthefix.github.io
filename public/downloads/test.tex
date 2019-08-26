@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{mdframed}   % for framing
+\usepackage{tikz}
+\begin{document}
+
+\begin{mdframed}[backgroundcolor=black!10]
+\centering
+\begin{tikzpicture}
+\foreach \x in {0,...,5}
+\draw (0,0) to[bend right] node [pos=0.8,fill=black!10] {\x} (60*\x+30:3) ;
+\draw[fill=black!10] (20:1) -- (140:1) -- (260:1) -- cycle;
+\draw (0,0) node[align=center] {Center};
+\end{tikzpicture}
+\end{mdframed}
+
+\end{document}

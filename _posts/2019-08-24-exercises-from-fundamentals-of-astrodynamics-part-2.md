@@ -20,9 +20,9 @@ NM, respectively. Find the eccentricity of the orbit.
 
 **Solution**:
 
-To begin, by inspection of Figure 1.5-1 in the book, $$ r = p $$ when
-$$ \nu = 90^\circ $$.  We can also show this mathematically using the polar
-equation of a conic section:
+To begin, by inspection of Figure 1.5-1 in the book or the figure above,
+$$ r = p $$ when $$ \nu = 90^\circ $$.  We can also show this mathematically
+using the polar equation of a conic section:
 
 $$
 
@@ -92,19 +92,19 @@ gives us eccentricity in terms of our knowns:
 $$
 
 \begin{align*}
-e &= \sqrt{1 + \frac{2r}{\mu} \left ( \frac{v^2}{2}  - \frac{\mu}{r} \right )} \\
+e &= \sqrt{1 + \frac{2r}{\mu} \left ( \frac{v^2}{2}  - \frac{\mu}{r} \right )}\\
   &= \sqrt{1 + \frac{v^2r}{\mu}  - 2 } \\
   &= \sqrt{\frac{v^2r}{\mu}  - 1 }.
 \end{align*}
 
 $$
 
-Now the calculation for eccentricity can be done being mindful of units (1 NM
-= 6076.12 ft):
+Now the calculation for eccentricity can be done being mindful of units (1 NM =
+6076.12 ft):
 
 $$
 
-\therefore e = \sqrt{\frac{(45000)^2(4000*6076.12)}{1.40765*10^{16}}  - 1 } = 1.581,
+\therefore e = \sqrt{\frac{(45000)^2(4000*6076.12)}{1.40765*10^{16}}-1} = 1.581,
 
 $$
 
