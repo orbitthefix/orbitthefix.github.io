@@ -105,7 +105,7 @@ Now the calculation for eccentricity can be done being mindful of units (1 NM =
 $$
 
 \begin{align*}
-\therefore e &= \sqrt{\frac{(45000)^2(4000*6076.12)}{1.40765*10^{16}}-1}
+\therefore e &= \sqrt{\frac{(45000)^2(4000*6076.12)}{1.40765*10^{16}}-1} \\
              &= 1.581,
 \end{align*}
 
