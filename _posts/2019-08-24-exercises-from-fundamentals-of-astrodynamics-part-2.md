@@ -64,8 +64,8 @@ $$
 
 $$
 
-where $$ \mu $$ is the gravitational parameter, 1.40765x10$$^{16}$$
-ft$$^3$$s$$^{-2}$$ for Earth.
+where $$ \mu $$ is the gravitational parameter, 1.40765x10<sup>16</sup>
+ft<sup>3</sup>s<sup>-2</sup> for Earth.
 
 Substituting this into our equation for $$ e $$ yields:
 
