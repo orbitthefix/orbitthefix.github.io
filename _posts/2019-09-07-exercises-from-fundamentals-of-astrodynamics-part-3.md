@@ -5,7 +5,7 @@ categories: [Orbital Mechanics, Fundamentals of Astrodynamics]
 tags: [period, apogee, perigee, semi-major axis, ]
 ---
 
-Again, were back in “Fundamentals of Astrodynamics” by Bate, Mueller, and White,
+Again, we're back in “Fundamentals of Astrodynamics” by Bate, Mueller, and White,
 continuing with the first problem set.
 
 **Exercise 1.3** An Earth satellite is observed to have a height of perigee of
