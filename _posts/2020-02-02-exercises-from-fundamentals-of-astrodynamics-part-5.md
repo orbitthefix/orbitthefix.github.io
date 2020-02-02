@@ -22,7 +22,7 @@ r(\pi) = r_{apoapsis}.
 $$
 
 In simple language, apoapsis (i.e. maximum radial distance) happens 180
-<sup>O<\sup>, or $\pi$ radians from periapsis (i.e. minimum radial distance).
+<sup>O<\sup>, or $$\pi$$ radians from periapsis (i.e. minimum radial distance).
 To show that $$r_{apoapsis}=a(1 + e)$$, we'll revisit equation 1.5-4 from the
 book, a form of the trajectory equation called the polar equation of a conic
 section:
