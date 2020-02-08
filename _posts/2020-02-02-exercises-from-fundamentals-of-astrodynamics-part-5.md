@@ -39,8 +39,15 @@ can substitute equation 1.5-6 for the semi-latus rectum and complete the proof:
 
 $$
 
-p = a \left (1 - e^2 \right ) \\
-\therefore r(\nu) = \frac{a \left (1 - e^2 \right )}{1+e\cos{\nu}} \\
+\displaylines{
+  p = a \left (1 - e^2 \right ) \\
+  \therefore r(\nu) = \frac{a \left (1 - e^2 \right )}{1+e\cos{\nu}} \\
+}
+
+$$
+
+$$
+
 \begin{align*}
 
 r(\pi) &= \frac{a \left (1 - e^2 \right )}{1 - e} \\
@@ -49,8 +56,14 @@ r(\pi) &= \frac{a \left (1 - e^2 \right )}{1 - e} \\
        &= a(1 + e) \\
 
 \end{align*}
-\because r_{apoapsis}=r(\nu) \\
-r_{apoapsis}=a(1 + e).
-\blacksquare
+
+$$
+
+$$
+
+\displaylines{
+  \because r_{apoapsis}=r(\pi) \\
+  r_{apoapsis}=a(1 + e). \blacksquare
+}
 
 $$
