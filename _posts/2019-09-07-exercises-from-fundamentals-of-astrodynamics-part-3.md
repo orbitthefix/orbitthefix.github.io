@@ -48,8 +48,10 @@ $$r_\oplus$$, and the height of the satellite at the two respective positions:
 
 $$
 
-r_a = r_\oplus + r_{ha} \\
-r_p = r_\oplus + r_{hp},
+\displaylines{
+  r_a = r_\oplus + r_{ha} \\
+  r_p = r_\oplus + r_{hp},
+}
 
 $$
 

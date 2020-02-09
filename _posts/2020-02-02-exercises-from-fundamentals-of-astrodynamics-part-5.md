@@ -13,7 +13,7 @@ Astrodynamics” by Bate, Mueller, and White, we arrive at a simple proof.
 
 **Solution**:
 
-By inspection of the figure in my previous post:
+By inspection of the [figure in my previous post]({% post_url 2019-08-24-exercises-from-fundamentals-of-astrodynamics-part-2 %}):
 
 $$
 

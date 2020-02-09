@@ -29,8 +29,10 @@ rearranging for $$v$$ yields the desired equation:
 
 $$
 
-\frac{v^2}{2} = \mathcal{E} + \frac{\mu}{r} \\
-\therefore v = \sqrt{2 \left ( \mathcal{E} + \frac{\mu}{r} \right )}.
-\blacksquare
+\displaylines{
+  \frac{v^2}{2} = \mathcal{E} + \frac{\mu}{r} \\
+  \therefore v = \sqrt{2 \left ( \mathcal{E} + \frac{\mu}{r} \right )}.
+  \blacksquare
+}
 
 $$

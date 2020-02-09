@@ -21,8 +21,10 @@ Distance Units per Time Unit (TU), respectively, are described by
 
 $$
 
-\vec{r} = 2\vec{I} + 2\vec{J} + 2\vec{K} \quad \textrm{DU} \\
-\vec{v} = -.4\vec{I} + .2\vec{J} + .4\vec{K} \quad \textrm{TU}
+\displaylines{
+  \vec{r} = 2\vec{I} + 2\vec{J} + 2\vec{K} \quad \textrm{DU} \\
+  \vec{v} = -.4\vec{I} + .2\vec{J} + .4\vec{K} \quad \textrm{TU}
+}
 
 $$
 
@@ -47,26 +49,28 @@ This yields:
 
 $$
 
-2 \cdot 0.4 \cdot \vec{I} - 2 \cdot 0.2 \cdot \vec{I} = 0.4 \cdot \vec{I} \\
-2 \cdot (-0.4) \cdot \vec{J} - 2 \cdot 0.4 \cdot \vec{J} = -1.6 \cdot \vec{J} \\
-2 \cdot 0.2 \cdot \vec{K} - (-0.4) \cdot 0.2 \cdot \vec{K} = 1.2 \cdot \vec{K} \\
+\displaylines{
+  2 \cdot 0.4 \cdot \vec{I} - 2 \cdot 0.2 \cdot \vec{I} = 0.4 \cdot \vec{I} \\
+  2 \cdot (-0.4) \cdot \vec{J} - 2 \cdot 0.4 \cdot \vec{J} = -1.6 \cdot \vec{J} \\
+  2 \cdot 0.2 \cdot \vec{K} - (-0.4) \cdot 0.2 \cdot \vec{K} = 1.2 \cdot \vec{K} \\
 
-\\~\\
+  \\~\\
 
-\therefore \vec{h} = 0.4 \vec{I} - 1.6 \vec{J} + 1.2 \vec{K} \quad \frac{\textrm{DU}^2}{\textrm{TU}}
+  \therefore \vec{h} = 0.4 \vec{I} - 1.6 \vec{J} + 1.2 \vec{K} \quad \frac{\textrm{DU}^2}{\textrm{TU}}
+}
 
 $$
 
 Equation for specific mechanical energy:
 
 $$
+\displaylines{
+  \mathcal{E} = \frac{v^2}{2}  - \frac{\mu}{r} \\
 
-\mathcal{E} = \frac{v^2}{2}  - \frac{\mu}{r} \\
-
-v^2 = |\vec{v}|^{2} \\
-\therefore v^2 = (-0.4)^2 + 0.2^2 + 0.4^2 = 0.36 \quad \frac{\textrm{DU}^2}{\textrm{TU}^2} \\
-r = |\vec{r}| = \left( 2^2 + 2^2 +2^2 \right)^{\frac{1}{2}} = 12^{\frac{1}{2}} \quad \textrm{DU} \\
-
+  v^2 = |\vec{v}|^{2} \\
+  \therefore v^2 = (-0.4)^2 + 0.2^2 + 0.4^2 = 0.36 \quad \frac{\textrm{DU}^2}{\textrm{TU}^2} \\
+  r = |\vec{r}| = \left( 2^2 + 2^2 +2^2 \right)^{\frac{1}{2}} = 12^{\frac{1}{2}} \quad \textrm{DU} \\
+}
 $$
 
 Since we're using canonical units, let $$\mu = 1$$:
