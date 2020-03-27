@@ -22,15 +22,17 @@ $$
 
 $$
 
-where $$v$$ is the velocity, $$\mu$$ is the gravitational parameter,  
+where $$v$$ is the velocity, $$\mu$$ is the gravitational parameter,
 1.40765x10<sup>16</sup> ft<sup>3</sup>s<sup>-2</sup> for Earth, and $$r$$ is the
 radial distance from the center of the earth to the satellite.  Simply
 rearranging for $$v$$ yields the desired equation:
 
 $$
 
-\frac{v^2}{2} = \mathcal{E} + \frac{\mu}{r} \\
-\therefore v = sqrt{2 \left ( \mathcal{E} + \frac{\mu}{r} \right )}.
-\blacksquare
+\displaylines{
+  \frac{v^2}{2} = \mathcal{E} + \frac{\mu}{r} \\
+  \therefore v = \sqrt{2 \left ( \mathcal{E} + \frac{\mu}{r} \right )}.
+  \blacksquare
+}
 
 $$
