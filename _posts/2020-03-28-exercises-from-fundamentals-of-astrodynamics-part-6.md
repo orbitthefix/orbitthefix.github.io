@@ -214,6 +214,7 @@ e &= \sqrt{1 + \frac{2\mathcal{E}h^2}{\mu^2}} \\
   &= \sqrt{1 + \frac{2(-0.568)(0.123^2 + 0.18^2 + (-0.9)^2)}{1^2}}
   &= 0.159.
 \end{align*}
+$$
 
 The resultant eccentricity being less than one means the orbit is an ellipse.
 
@@ -238,10 +239,12 @@ $$
 
 $$
 
-$$ \displaylines{
+$$
+\displaylines{
 r = \sqrt{1.01^2} = 1.01 \quad \textrm{DU} \\
 v^2 = 1^2 + 1.4^2 = 2.96 \quad (\textrm{DU/TU})^2
 }
+
 \begin{align*}
 \mathcal{E} &= \frac{v^2}{2}-\frac{\mu}{r} \\
             &= \frac{2.96}{2}-\frac{1}{1.01} \\
