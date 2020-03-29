@@ -10,32 +10,38 @@ In this post, we'll focus on a multi-part problem in chapter 1 of “Fundamental
 of Astrodynamics” by Bate, Mueller, and White, that introduces some basics of
 orbit determination, namely eccentricity.
 
+$$
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+$$
+
 **Exercise 1.8** Identify each of the following trajectories as either circular,
 elliptical, hyperbolic, or parabolic:
 
 1. $$ \displaylines{
-       r = 3 \quad \textrm{DU} //
+       r = 3 \quad \textrm{DU} \\
        v = 1.5 \quad \textrm{DU/TU}
       }
    $$
 2. $$ \displaylines{
-       r_{perigee} = 1.5 \quad \textrm{DU} //
+       r_{perigee} = 1.5 \quad \textrm{DU} \\
        p = 3 \quad \textrm{DU}
       }
    $$
 3. $$ \displaylines{
-       \mathcal{E} = -1/3 \quad \textrm{DU}^2/\textrm{TU}^2 //
+       \mathcal{E} = -1/3 \quad \textrm{DU}^2/\textrm{TU}^2 \\
        p = 1.5 \quad \textrm{DU/TU}
       }
    $$
 
 4. $$ \displaylines{
-      \vec{r} = \vec{J} + 0.2\vec{K} //
+      \vec{r} = \vec{J} + 0.2\vec{K} \\
       \vec{v} = 0.9\vec{I} + 0.123\vec{K}
      }
   $$
 5. $$ \displaylines{
-      \vec{r} = 1.01\vec{K} //
+      \vec{r} = 1.01\vec{K} \\
       \vec{v} = \vec{I} + 1.4\vec{K}
      }
   $$
@@ -46,7 +52,7 @@ Our goal to determine the type of orbit for all of the following will be to find
 an expression of eccentricity based on our knowns.  
 
 1. $$ \displaylines{
-       r = 3 \quad \textrm{DU} //
+       r = 3 \quad \textrm{DU} \\
        v = 1.5 \quad \textrm{DU/TU}
       }
    $$
@@ -58,7 +64,9 @@ However, we can get close enough and use a reasonable assumption to make the
 leap to declaring what type of orbit it is.  Recall the equation for specific
 mechanical energy, $$\mathcal{E}$$:
 
-$$ \mathcal{E} = \frac{v^2}{2} - \frac{\mu}{r} $$,
+$$
+\mathcal{E} = \frac{v^2}{2} - \frac{\mu}{r},
+$$
 
 where $$v$$ is velocity, $$r$$ is position, and  $$\mu$$ is the gravitational
 parameter (for our purposes equal to unity due to working in canonical units).  
@@ -67,7 +75,7 @@ Solving this yields a positive result:
 $$
 \begin{align*}
 
-\mathcal{E} &= \frac{1.5^2}{2} - \frac{1}{3}
+\mathcal{E} &= \frac{1.5^2}{2} - \frac{1}{3} \\
             &= \frac{10}{24} \quad \textrm{DU}^2/\textrm{TU}^2.  
 
 \end{align*}
@@ -96,7 +104,7 @@ square-root, $$e$$ must be greater than one and therefore the orbit is a
 hyperbola.
 
 2. $$ \displaylines{
-       r_{perigee} = 1.5 \quad \textrm{DU} //
+       r_{perigee} = 1.5 \quad \textrm{DU} \\
        p = 3 \quad \textrm{DU}
       }
    $$
@@ -116,7 +124,7 @@ $$
 The resultant eccentricity being unity means the orbit is a parabola.
 
 3. $$ \displaylines{
-       \mathcal{E} = -1/3 \quad \textrm{DU}^2/\textrm{TU}^2 //
+       \mathcal{E} = -1/3 \quad \textrm{DU}^2/\textrm{TU}^2 \\
        p = 1.5 \quad \textrm{DU/TU}
       }
    $$
@@ -157,7 +165,7 @@ $$
 $$
 
 \begin{align*}
-\therefore \vec{h} &= 0.123\vec{I} + 0.9 \cdot 0.2 \vec{J} - 0.9 \vec{K}
+\therefore \vec{h} &= 0.123\vec{I} + 0.9 \cdot 0.2 \vec{J} - 0.9 \vec{K} \\
                    &= 0.123\vec{I} + 0.18 \vec{J} - 0.9 \vec{K} \quad \textrm{DU}^2/\textrm{TU}.
 \end{align*}
 
@@ -171,8 +179,8 @@ r = \sqrt{1^2+0.2^2} = \sqrt{1.04} \quad \textrm{DU} \\
 v^2 = 0.9^2 + 0.123^2
 }
 \begin{align*}
-\mathcal{E} &= \frac{v^2}{2}-\frac{\mu}{r}
-            &= \frac{\left(0.9^2 + 0.123^2\right)}{2}-\frac{1}{\sqrt{1.04}}
+\mathcal{E} &= \frac{v^2}{2}-\frac{\mu}{r} \\
+            &= \frac{\left(0.9^2 + 0.123^2\right)}{2}-\frac{1}{\sqrt{1.04}} \\
             $= -0.568 \quad \textrm{DU}^2/\textrm{TU}^2.
 \end{align*}          
 $$
@@ -200,8 +208,8 @@ brevity, I'll skip any explanation and just show steps:
 $$
 
 \begin{align*}
-\vec{h} &= \vec{r} \times \vec{v}
-        &= 0\vec{I} + 1.01 \vec{J} + 0 \vec{K}
+\vec{h} &= \vec{r} \times \vec{v} \\
+        &= 0\vec{I} + 1.01 \vec{J} + 0 \vec{K} \\
         &= 1.01 \vec{J} \quad \textrm{DU}^2/\textrm{TU}
 \end{align*}
 
@@ -212,8 +220,8 @@ r = \sqrt{1.01^2} = 1.01 \quad \textrm{DU} \\
 v^2 = 1^2 + 1.4^2 = 2.96 \quad (\textrm{DU/TU})^2
 }
 \begin{align*}
-\mathcal{E} &= \frac{v^2}{2}-\frac{\mu}{r}
-            &= \frac{2.96}{2}-\frac{1}{1.01}
+\mathcal{E} &= \frac{v^2}{2}-\frac{\mu}{r} \\
+            &= \frac{2.96}{2}-\frac{1}{1.01} \\
             $= 0.49 \quad \textrm{DU}^2/\textrm{TU}^2.
 \end{align*}          
 $$
@@ -221,9 +229,10 @@ $$
 $$
 \begin{align*}
 e &= \sqrt{1 + \frac{2\mathcal{E}h^2}{\mu^2}} \\
-  &= \sqrt{1 + \frac{2(0.49)(1.01^2)}{1^2}}
+  &= \sqrt{1 + \frac{2(0.49)(1.01^2)}{1^2}} \\
   &= 1.41.
 \end{align*}
+$$
 
 The resultant eccentricity being greater than one means the orbit is a
 hyperbola. $$\blacksquare$$
