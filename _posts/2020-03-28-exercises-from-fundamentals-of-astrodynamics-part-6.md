@@ -20,6 +20,7 @@ $$
 elliptical, hyperbolic, or parabolic:
 
 a.
+
 $$ \displaylines{
    r = 3 \quad \textrm{DU} \\
    v = 1.5 \quad \textrm{DU/TU}
@@ -27,19 +28,23 @@ $$ \displaylines{
 $$
 
 b.
+
 $$ \displaylines{
    r_{perigee} = 1.5 \quad \textrm{DU} \\
    p = 3 \quad \textrm{DU}
   }
 $$
 
-c. $$ \displaylines{
+c.
+
+$$ \displaylines{
    \mathcal{E} = -1/3 \quad \textrm{DU}^2/\textrm{TU}^2 \\
    p = 1.5 \quad \textrm{DU/TU}
   }
 $$
 
 d.
+
 $$ \displaylines{
     \vec{r} = \vec{J} + 0.2\vec{K} \\
     \vec{v} = 0.9\vec{I} + 0.123\vec{K}
@@ -47,6 +52,7 @@ $$ \displaylines{
 $$
 
 e.
+
 $$ \displaylines{
     \vec{r} = 1.01\vec{K} \\
     \vec{v} = \vec{I} + 1.4\vec{K}
@@ -59,6 +65,7 @@ Our goal to determine the type of orbit for all of the following will be to find
 an expression of eccentricity based on our knowns.  
 
 a.
+
 $$ \displaylines{
    r = 3 \quad \textrm{DU} \\
    v = 1.5 \quad \textrm{DU/TU}
@@ -112,6 +119,7 @@ square-root, $$e$$ must be greater than one and therefore the orbit is a
 hyperbola.
 
 b.
+
 $$ \displaylines{
    r_{perigee} = 1.5 \quad \textrm{DU} \\
    p = 3 \quad \textrm{DU}
@@ -133,6 +141,7 @@ $$
 The resultant eccentricity being unity means the orbit is a parabola.
 
 c.
+
 $$ \displaylines{
    \mathcal{E} = -1/3 \quad \textrm{DU}^2/\textrm{TU}^2 \\
    p = 1.5 \quad \textrm{DU/TU}
@@ -154,6 +163,7 @@ $$
 The resultant eccentricity being zero means the orbit is a circle.
 
 d.
+
 $$ \displaylines{
     \vec{r} = \vec{J} + 0.2\vec{K} \quad \textrm{DU} \\
     \vec{v} = 0.9\vec{I} + 0.123\vec{K} \quad \textrm{DU/TU}
@@ -207,7 +217,8 @@ e &= \sqrt{1 + \frac{2\mathcal{E}h^2}{\mu^2}} \\
 
 The resultant eccentricity being less than one means the orbit is an ellipse.
 
-e. 
+e.
+
 $$ \displaylines{
     \vec{r} = 1.01\vec{K} \quad \textrm{DU} \\
     \vec{v} = \vec{I} + 1.4\vec{K} \quad \textrm{DU/TU}
