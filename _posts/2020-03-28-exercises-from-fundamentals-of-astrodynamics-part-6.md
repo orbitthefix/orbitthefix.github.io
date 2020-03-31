@@ -214,7 +214,7 @@ We can now solve for the eccentricity using equation 1.6-4 from the text:
 $$
 \begin{align*}
 e &= \sqrt{1 + \frac{2\mathcal{E}h^2}{\mu^2}} \\
-  &= \sqrt{1 + \frac{2(-0.568)(0.123^2 + 0.18^2 + (-0.9)^2)}{1^2}}
+  &= \sqrt{1 + \frac{2(-0.568)(0.123^2 + 0.18^2 + (-0.9)^2)}{1^2}} \\
   &= 0.159.
 \end{align*}
 $$
