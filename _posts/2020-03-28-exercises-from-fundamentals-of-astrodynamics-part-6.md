@@ -199,6 +199,9 @@ $$ \displaylines{
 r = \sqrt{1^2+0.2^2} = \sqrt{1.04} \quad \textrm{DU} \\
 v^2 = 0.9^2 + 0.123^2
 }
+$$
+
+$$
 \begin{align*}
 \mathcal{E} &= \frac{v^2}{2}-\frac{\mu}{r} \\
             &= \frac{\left(0.9^2 + 0.123^2\right)}{2}-\frac{1}{\sqrt{1.04}} \\
