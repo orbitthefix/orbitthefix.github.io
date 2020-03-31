@@ -251,7 +251,7 @@ v^2 = 1^2 + 1.4^2 = 2.96 \quad (\textrm{DU/TU})^2
 \begin{align*}
 \mathcal{E} &= \frac{v^2}{2}-\frac{\mu}{r} \\
             &= \frac{2.96}{2}-\frac{1}{1.01} \\
-            $= 0.49 \quad \textrm{DU}^2/\textrm{TU}^2.
+            &= 0.49 \quad \textrm{DU}^2/\textrm{TU}^2.
 \end{align*}          
 $$
 
