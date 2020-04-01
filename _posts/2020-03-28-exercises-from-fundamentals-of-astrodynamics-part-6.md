@@ -101,7 +101,7 @@ $$
 \end{align*}
 $$
 
-The orbit is therefore a hyperbolic.  Let's take this a step further and attempt
+The orbit is therefore hyperbolic.  Let's take this a step further and attempt
 to solve for $$e$$ using equation 1.6-4 from the book to prove to ourselves this
 is the case:
 
