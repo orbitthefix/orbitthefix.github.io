@@ -89,7 +89,7 @@ $$
 $$
 
 where $$v$$ is velocity, $$r$$ is position, and  $$\mu$$ is the gravitational
-parameter (for our purposes equal to unity due to working in canonical units).  
+parameter (for our purposes equal to unity due to working in canonical units).
 Solving this yields a positive result:
 
 $$
