@@ -79,11 +79,10 @@ $$ \displaylines{
 $$
 
 Given a scalar position and velocity, $$r$$ and $$v$$, respectively, we seek to
-equate these to eccentricity, $$e$$.  Unfortunately, to my knowledge an equation
-does not exist only knowing these two scalar values to directly solve for $$e$$.
-However, we can get close enough and use a reasonable assumption to make the
-leap to declaring what type of orbit it is.  Recall the equation for specific
-mechanical energy, $$\mathcal{E}$$:
+equate these to eccentricity.  However, we cannot solve for $$e$$ only knowing
+these two parameters.  But luckily for us, these problems only require declaring
+what type of orbit it is.  As prefaced above, we can do that by solving for
+specific  mechanical energy, $$\mathcal{E}$$:
 
 $$
 \mathcal{E} = \frac{v^2}{2} - \frac{\mu}{r},
@@ -102,8 +101,9 @@ $$
 \end{align*}
 $$
 
-Using this result along with equation 1.6-4 from the book allows us to determine
-the type of orbit:
+The orbit is therefore a hyperbolic.  Let's take this a step further and attempt
+to solve for $$e$$ using equation 1.6-4 from the book to prove to ourselves this
+is the case:
 
 $$
 
