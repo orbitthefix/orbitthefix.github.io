@@ -62,7 +62,13 @@ $$
 **Solution**:
 
 Our goal to determine the type of orbit for all of the following will be to find
-an expression of eccentricity based on our knowns.  
+an expression of eccentricity, $$e$$, based on our knowns.  However, in some
+cases it is unnecessary to solve for $$e$$ because often as an intermediate
+step, it is necessary to find the specific mechanical energy, $$\mathcal{E}$$,
+which can at the very least inform of us as to whether the orbit is elliptical
+(circular being a special case) ($$\mathcal{E}$$ < 0), parabolic
+($$\mathcal{E}$$ = 0), or hyperbolic ($$\mathcal{E}$$ > 0).  Prove this to
+yourself be examining equations 1.4-2 and 1.6-4 from the book.
 
 a.
 
@@ -102,7 +108,7 @@ the type of orbit:
 $$
 
 \begin{align*}
-e &= \sqrt{1 + \frac{2\mathcal{E}h^2}{\mu}} \\
+e &= \sqrt{1 + \frac{2\mathcal{E}h^2}{\mu^2}} \\
   &= \sqrt{1 + \frac{2 \left( 10/24 \right)h^2}{1}},
 \end{align*}
 
@@ -154,7 +160,7 @@ for $$e$$:
 
 $$ \displaylines{
     e = \sqrt{1 + \frac{2\mathcal{E}h^2}{\mu^2}} \\
-    \because h = p\mu \\
+    \because h^2 = p\mu \\
     e = \sqrt{1 + \frac{2\mathcal{E}p}{\mu}} \\
     \therefore e = \sqrt{1 + \frac{2(-1/3)(3/2)}{1}} = 0.
   }
